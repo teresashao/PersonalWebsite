@@ -243,7 +243,7 @@ p{
 }
 
 .layer:hover{
-    background:  rgba(226, 0, 0, 0.7);
+    background:  rgba(132, 130, 130, 0.7);
 }
 
 .layer h3{
@@ -265,7 +265,7 @@ p{
     width: 80%; 
     margin: auto; 
     text-align: center; 
-    padding-top: 100px; 
+    
 
 }
 h1{
@@ -287,15 +287,21 @@ p{
 }
 .facilities-col img{
     width: 100%; 
-    height: 50%;
+    height: 60%;
     border-radius: 10px;
 }
 .facilities-col p{
     padding: 0;
 }
 .facilities-col h3{
-    margin-top: 16px; 
+    margin-top: 10px; 
     margin-bottom: 0px; 
+    text-align: left;
+}
+.facilities-col h4{
+    margin-top: 16px; 
+    margin-bottom: 10px; 
+    color:rgba(0, 0, 0, 0.2);
     text-align: left;
 }
 .testimonials{
@@ -332,7 +338,6 @@ p{
     border-radius: 10px; 
     margin-bottom: 200px;
     padding-left: 0px;
-    padding-top: 30px;
     overflow: hidden;
 
 }
@@ -343,4 +348,13 @@ p{
 .testimonials-col h3{
     margin-top: 15px; 
     text-align: left; 
+}
+
+.social-logo img{
+    flex-basis: 32%;
+    height: 50px; 
+    border-radius: 10px; 
+    padding-left: 83%;
+    padding-bottom: 2%;
+    text-align: center;
 }

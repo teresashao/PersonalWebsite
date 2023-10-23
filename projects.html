@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <a href = "index.html"> <img src = "Assets/logo.png"></a>
+        <div class="nav-links" id = "navLinks">
+            <ul>
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "about.html">ABOUT</a></li>
+                <li><a href = "projects.html">PROJECTS</a></li>
+                <li><a href = "mailto:ts3488@columbia.edu">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class = "campus">
+        <h1>Projects</h1>
+        </section>
+        <div class="social-logo">
+            <a target = blank_ href = " https://github.com/teresashao"> 
+                    <img src="Assets/GitHub-logo.png">
+            </a>
+        </div>
+    <section class="facilities">
+        <div class = "row">
+            <div class="facilities-col">
+                <img src="Assets/reddit.png">
+                <h3>Reddit Sentiment Analysis</h3>
+                <h4>Python, Flask framework, HTML, CSS</h4>
+                <p>Analyzes the sentiment of reddit subreddit headlines and post comments to determine their sentiment.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Assets/sunscreen.png">
+                <h3>Sunscreen Reminder</h3>
+                <h4>Python, Tkinter, Beautiful Soup</h4>
+                <p>Conducts web scraping of UV indices and sends automatic email reminders about wearing sunscreen.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Assets/game.png">
+                <h3>Shesh Besh</h3>
+                <h4>Java</h4>
+                <p>Simulates the shesh besh game, which is a Turkish board game where two players must move their tokens around strategically.</p>
+            </div>
+        </div>
+    </section>
+    <!-----JavaScript for Toggle Menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
